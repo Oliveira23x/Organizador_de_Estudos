@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "Ritmo • Organizador de Estudos",
+    "slug": "ritmo-estudos",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#F6F7F3",
+    "android": { "package": "com.diego.ritmoestudos" },
+    "ios": { "supportsTablet": true, "bundleIdentifier": "com.diego.ritmoestudos" },
+    "web": { "bundler": "metro", "name": "Ritmo Estudos" },
+    "plugins": ["expo-sqlite"]
+  }
+}
