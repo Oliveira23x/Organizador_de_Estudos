@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Ritmo • Organizador de Estudos",
+    "slug": "ritmo-estudos-poo",
+    "version": "2.0.0",
+    "icon": "./assets/icon.png",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#F6F7F3",
+    "android": {
+      "package": "com.diego.ritmoestudospoo",
+      "versionCode": 2,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#184D42"
+      }
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.diego.ritmoestudospoo"
+    },
+    "web": {
+      "bundler": "metro",
+      "name": "Ritmo Estudos"
+    },
+    "plugins": [
+      "expo-sqlite"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "08181c79-19b5-4fb1-88a5-e0a5e0fd74ed"
+      }
+    },
+    "owner": "oliveira23xs-team"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "ritmo-estudos-poo",
+  "version": "2.0.0",
+  "private": true,
+  "main": "index.js",
+  "engines": {
+    "node": "^22.13.0 || ^24.3.0 || ^26.0.0 || >=27.0.0"
+  },
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "start:clean": "expo start --clear",
+    "test": "node --test tests/*.test.js",
+    "check": "expo install --check",
+    "export:android": "expo export --platform android --output-dir dist-android",
+    "export:web": "expo export --platform web --output-dir dist-web",
+    "apk:build": "node scripts/eas-project.cjs build --platform android --profile preview",
+    "apk:download": "node scripts/baixar-apk.cjs",
+    "demo:poo": "node examples/polimorfismo.mjs"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^15.0.2",
+    "expo": "~58.0.23",
+    "expo-sqlite": "~58.0.15",
+    "expo-status-bar": "~58.0.4",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-native": "0.88.1",
+    "react-native-safe-area-context": "~5.11.1",
+    "react-native-web": "^0.21.4"
+  }
+}

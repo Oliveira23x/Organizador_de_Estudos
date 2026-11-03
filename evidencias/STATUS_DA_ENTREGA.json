@@ -1,0 +1,62 @@
+{
+  "appVersion": "2.0.0",
+  "databaseSchemaVersion": 2,
+  "verificationDate": "2026-10-30",
+  "automatedSQLiteTests": {
+    "passed": 24,
+    "failed": 0
+  },
+  "webInterfaceChecks": {
+    "passed": 14,
+    "uncaughtJavaScriptErrors": 0,
+    "scope": "Verificações e capturas da base funcional Ritmo 2.0; interface preservada nesta cópia."
+  },
+  "androidBundle": {
+    "status": "exported",
+    "command": "npm run export:android",
+    "isApk": false,
+    "scope": "Novo projeto ritmo-estudos-poo com Goal abstrata e subclasses concretas"
+  },
+  "easBuild": {
+    "status": "pending_authentication",
+    "buildId": null,
+    "apkPath": null,
+    "observedError": "An Expo user account is required to proceed."
+  },
+  "androidInstallation": {
+    "status": "pending_device_validation",
+    "device": null
+  },
+  "projectName": "ritmo-estudos-poo",
+  "sourceCopy": "Projeto separado do Ritmo 2.0",
+  "androidIdentifier": "com.diego.ritmoestudospoo",
+  "oopVerification": {
+    "abstractBase": "Goal",
+    "subclasses": [
+      "TimeGoal",
+      "SessionGoal"
+    ],
+    "overriddenMethods": [
+      "currentValue",
+      "targetValue",
+      "progressLabel"
+    ],
+    "sharedInheritedMethod": "progress",
+    "demoCommand": "npm run demo:poo",
+    "sameMetricsResults": [
+      50,
+      25
+    ]
+  },
+  "easArchiveRootFix": {
+    "env": {
+      "EAS_NO_VCS": "1",
+      "EAS_PROJECT_ROOT": "Raiz absoluta do aplicativo resolvida pelo script"
+    },
+    "regressionTests": {
+      "passed": 3,
+      "failed": 0
+    },
+    "cloudUploadVerification": "A confirmar na conta Expo do aluno"
+  }
+}

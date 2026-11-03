@@ -1,0 +1,30 @@
+{
+  "checks": [
+    "Exemplos, resumo, metas e indicadores da versão 2 abrem com SQLite real.",
+    "Cadastro de meta por sessões, validação de quantidade e cálculo polimórfico da meta existente.",
+    "Filtro SQL de revisões atrasadas retorna apenas os registros esperados.",
+    "Agenda: inclusão, edição e busca de revisão concluídas pela interface.",
+    "Conclusão de revisão valida duração e gera sessão no histórico sem duplicação.",
+    "Filtro por intervalo personalizado valida datas vazias e consulta o período aplicado.",
+    "Filtro SQL por duração altera corretamente o conjunto de sessões.",
+    "Cronômetro persiste em SQLite, reaparece após reabrir a aplicação e permite pausar e retomar.",
+    "Fim do foco e salvamento no histórico verificados com relógio acelerado em 65 segundos no teste.",
+    "Cancelar exclusão mantém a revisão; excluir revisão concluída preserva a sessão do histórico.",
+    "CRUD de sessões mantido na versão aprimorada, com edição e exclusão confirmadas.",
+    "CRUD de disciplinas permanece funcionando após a migração.",
+    "Meta por sessões pode ser consultada, editada e excluída.",
+    "Layout conferido em 390 e 360 pixels sem overflow horizontal."
+  ],
+  "errors": [],
+  "screenshots": [
+    "01_resumo_v2.png",
+    "02_planejamento_resumo.png",
+    "03_metas_por_sessoes.png",
+    "04_validacao_meta.png",
+    "05_agenda.png",
+    "06_revisao_concluida.png",
+    "07_filtro_personalizado.png",
+    "08_foco_em_andamento.png",
+    "09_foco_retomado_apos_reabrir.png"
+  ]
+}

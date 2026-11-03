@@ -1,0 +1,17 @@
+{
+  "generatedBy": "EAS Build",
+  "buildId": "f122b5b6-eb30-41dd-888e-3dbd80aa5d5d",
+  "projectId": "08181c79-19b5-4fb1-88a5-e0a5e0fd74ed",
+  "platform": "ANDROID",
+  "profile": "preview",
+  "appVersion": "2.0.0",
+  "appIdentifier": "com.diego.ritmoestudospoo",
+  "status": "FINISHED",
+  "createdAt": "2026-11-03T22:36:42.217Z",
+  "completedAt": "2026-11-03T23:09:54.363Z",
+  "filename": "Ritmo-2.0.0.apk",
+  "sizeBytes": 74560736,
+  "sha256": "6002f6d90394ec70e223fc800f8ab68595487298f9fc917b2aa88f19949f2567",
+  "downloadedAt": "2026-11-03T23:14:49.743Z",
+  "installationStatus": "A verificar no dispositivo Android"
+}
